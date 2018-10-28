@@ -29,7 +29,7 @@ server.use(restify.plugins.queryParser());
 // 3. Call the persistedQueries method, ant it returns a Middleware
 server.get('/graphql', persistedQueries(graphqlRestify(graphQLOptions)), cacheLength);
  
-server.listen(3000, () => console.log(`Listening on ${PORT}`));
+server.listen(3000, () => console.log(`Listening on port 3000`));
 ```
 
 ## Official Docs
