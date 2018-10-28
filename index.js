@@ -1,4 +1,4 @@
-const cache = [];
+let cache = [];
 
 export const persistedQueries = (RequestHandler, cacheLength) => (req, res, next) => {
 
