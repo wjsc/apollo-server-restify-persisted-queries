@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/apollo-server-restify-persisted-queries.png?downloads)](https://nodei.co/npm/apollo-server-restify-persisted-queries)
+
 # apollo-server-restify-persisted-queries
 Tiny in-memory automatic persisted queries middleware for apollo-server-restify
 
@@ -5,8 +7,6 @@ Since apollo-server-restify uses Apollo Server 1.x, it has not support for APQ.
 Use this module to get server support.
 
 This package implements a circular buffer that persists the latest X queries in a in-memory Map.
-
-[![NPM](https://nodei.co/npm/apollo-server-restify-persisted-queries.png?downloads)](https://nodei.co/npm/apollo-server-restify-persisted-queries)
 
 ## Usage
 ```
