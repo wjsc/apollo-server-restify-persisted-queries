@@ -6,6 +6,8 @@ Use this module to get server support.
 
 This package implements a circular buffer that persists the latest X queries in a in-memory Map.
 
+https://nodei.co/npm/apollo-server-restify-persisted-queries.png?downloads
+
 ## Usage
 ```
 import restify from 'restify';
