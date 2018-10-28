@@ -1,6 +1,6 @@
 {
   "name": "apollo-server-restify-persisted-queries",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tiny in-memory persisted queries middleware for apollo-server-restify",
   "main": "index.js",
   "scripts": {
