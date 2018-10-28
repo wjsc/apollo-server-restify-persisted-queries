@@ -1,6 +1,6 @@
 let cache = [];
 
-export const persistedQueries = (RequestHandler, cacheLength) => (req, res, next) => {
+const persistedQueries = (RequestHandler, cacheLength) => (req, res, next) => {
 
   if((req.query && req.query.extensions) || (req.body && req.body.extensions)){
     const transport = req.query.extensions ? 'query' : 'body';
@@ -21,4 +21,8 @@ export const persistedQueries = (RequestHandler, cacheLength) => (req, res, next
   }
 
   return RequestHandler(req, res, next);
+}
+
+module.exports = {
+  persistedQueries
 }
