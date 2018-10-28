@@ -1,3 +1,11 @@
+![Current Version](https://img.shields.io/npm/v/apollo-server-restify-persisted-queries.svg)
+![NPM Minified size](https://img.shields.io/bundlephobia/min/apollo-server-restify-persisted-queries.svg)
+![Github Code Size](https://img.shields.io/github/languages/code-size/wjsc/apollo-server-restify-persisted-queries.svg)
+![Downloads/Week](https://img.shields.io/npm/dw/apollo-server-restify-persisted-queries.svg)
+![Issues](https://img.shields.io/github/issues/wjsc/apollo-server-restify-persisted-queries.svg)
+![License](https://img.shields.io/github/license/wjsc/apollo-server-restify-persisted-queries.svg)
+![Contributors](https://img.shields.io/github/contributors/wjsc/apollo-server-restify-persisted-queries.svg)
+
 [![NPM](https://nodei.co/npm/apollo-server-restify-persisted-queries.png)](https://nodei.co/npm/apollo-server-restify-persisted-queries)
 
 # apollo-server-restify-persisted-queries
