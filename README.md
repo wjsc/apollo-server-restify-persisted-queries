@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/apollo-server-restify-persisted-queries.png?downloads)](https://nodei.co/npm/apollo-server-restify-persisted-queries)
+[![NPM](https://nodei.co/npm/apollo-server-restify-persisted-queries.png)](https://nodei.co/npm/apollo-server-restify-persisted-queries)
 
 # apollo-server-restify-persisted-queries
 Tiny in-memory automatic persisted queries middleware for apollo-server-restify
