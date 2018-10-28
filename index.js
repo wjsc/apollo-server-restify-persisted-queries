@@ -1,4 +1,4 @@
-let cache = [];
+const cache = [];
 
 const persistedQueries = (RequestHandler, cacheLength) => (req, res, next) => {
 
@@ -11,7 +11,9 @@ const persistedQueries = (RequestHandler, cacheLength) => (req, res, next) => {
     const persistedQuery = cache.find( kv => kv.sha256Hash === sha256Hash );
     if(!persistedQuery && query) {
       cache.push({ sha256Hash , query });
-      cache = cache.slice(-cacheLength);
+      if(cache.length > cacheLength){
+        cache.shift();
+      };
     }
 
     if(!persistedQuery && !query){
